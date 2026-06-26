@@ -11,3 +11,4 @@ SteamCMD Auto-Upload Setup:
 2. Set 'auto_upload' in config.json to true
 3. Point 'steamcmd_path' in config.json to steamcmd.exe
 4. Set 'steam_username' in config.json to your login username for Steam
+    - If the login starts failing you may have to login to SteamCMD manually to cache your credentials again
