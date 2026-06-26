@@ -1,5 +1,5 @@
 # MecchaChameleon-Map-Making-Helper
-After you use MecchaCModKit_Load to build your map use MCMMH.py to gather the AssetRegistry.bin, MecchaCModKit_Load-Windows(.pak , .ucas , .utoc), and MyItem.vdf into a single folder to upload with SteamCMD.
+After you use MecchaCModKit_Load in Unreal Engine 5.6.1 to build your map files use MCMMH.py to gather the AssetRegistry.bin, MecchaCModKit_Load-Windows(.pak , .ucas , .utoc), and MyItem.vdf into a single folder to upload with SteamCMD.
 
 Usage:
 -   If this is your first time running MCMMH in this directory, run 'python MCMMH.py' without arguments to generate config.json and mods.json
