@@ -5,8 +5,8 @@ HowTo:
 -   To install required Python libraries run: pip install -r requirements.txt
 -   If this is your first time running MCMMH in this directory, run 'python .\MCMMH.py' without arguments to generate config.json and mods.json
 
--   Usage: python gather_files.py <plugin_name> <output_folder(no spaces)> <change_log_note(optional)>
-    Example: python gather_files.py SampleMyUGC MyFirstHouse This is my first mod
+-   Usage: python MCMMH.py <plugin_name> <output_folder(no spaces)> <change_log_note(optional)>
+    Example: python MCMMH.py SampleMyUGC MyFirstHouse This is my first mod
 
 SteamCMD Auto-Upload Setup:
 1.  Login to SteamCMD to cache your credentials
