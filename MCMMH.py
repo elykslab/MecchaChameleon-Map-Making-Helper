@@ -63,8 +63,8 @@ try:
     plugin_name = sys.argv[1]
     mod_key = sys.argv[2].lower()  # Convert input to lowercase to match JSON keys
 except Exception as e:
-    print(f"|  {CYAN}Usage: {YELLOW}python gather_files.py {GREEN}<plugin_name> {YELLOW}<output_folder(no spaces)> {GREEN}<change_log_note(optional)>{RESET}")
-    print(f"|  {CYAN}Example: {YELLOW}python gather_files.py {GREEN}SampleMyUGC {YELLOW}MyFirstHouse {GREEN}This is my first mod{RESET}")
+    print(f"|  {CYAN}Usage: {YELLOW}python .\{os.path.basename(__file__)} {GREEN}<plugin_name> {YELLOW}<output_folder(no spaces)> {GREEN}<change_log_note(optional)>{RESET}")
+    print(f"|  {CYAN}Example: {YELLOW}python .\{os.path.basename(__file__)} {GREEN}SampleMyUGC {YELLOW}MyFirstHouse {GREEN}This is my first mod{RESET}")
     print("-" * sepNum)
     sys.exit(1)
 change_log = ' '.join(sys.argv[3::])
